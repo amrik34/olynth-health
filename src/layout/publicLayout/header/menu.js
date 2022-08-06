@@ -52,11 +52,11 @@ const items = [
         icon: <DownOutlined />,
         children: [
             {
-                label: 'Shortcodes 1',
+                label: 'Short 1',
                 key: 'Shortcodes:1',
             },
             {
-                label: 'Shortcodes 2',
+                label: 'codes 2',
                 key: 'Shortcodes:2',
             },
 
