@@ -20,10 +20,10 @@ export class TopBar extends Component {
 
                     </Col>
                     <Col span={12} className="gutter-row topbar-right">
-                        <a href="#" className="phone"><PhoneIcon /> 123-456-789</a>
-                        <a href="#"><ClockCircleOutlined /> Mon-Fri 8:00 to 2:00</a>
-                        <a href="#"><MailOutlined /> contact@yourdomain.com</a>
-                        <a href="#" className="make-Appointment">Make an Appointment</a>
+                        <Link to='/' className="phone"><PhoneIcon /> 123-456-789</Link>
+                        <Link to='/'><ClockCircleOutlined /> Mon-Fri 8:00 to 2:00</Link>
+                        <Link to='/'><MailOutlined /> contact@yourdomain.com</Link>
+                        <Link to='/' className="make-Appointment">Make an Appointment</Link>
                     </Col>
                 </Row>
             </div>
