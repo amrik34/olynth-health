@@ -41,10 +41,10 @@ const items = [
         label: 'How it Works',
         key: 'HowitWorks',
     },
-    // {
-    //     label: 'RFID Tags',
-    //     key: 'RFIDTags',
-    // },
+    {
+        label: 'RFID Tags',
+        key: 'RFIDTags',
+    },
 
     {
         label: 'Shortcodes',
