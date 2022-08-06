@@ -4,6 +4,7 @@ import xray from "../../../../assets/images/png/xray.png";
 import './theolythvalue.less';
 import { Row, Col } from 'antd';
 import { DoubleRightOutlined } from '@ant-design/icons';
+import { Link } from "react-router-dom";
 
 const TheOlythValue = () => {
     const dataList = [
@@ -72,7 +73,7 @@ const TheOlythValue = () => {
                                     <li> <DoubleRightOutlined /> OlythThe in  OlythThe benefits of using olynth's innovative services alue in  OlythThe benefits of using olynth's innovative servicesalue in  OlythThe benefits of using olynth's innovative services.</li>
                                     <li> <DoubleRightOutlined /> Alue in  OlythThe benefits of using olynth's innovative services alue in  OlythThe benefits of using olynth's innovative servicesalue in  OlythThe benefits of using olynth's innovative services.</li>
                                 </ul>
-                                <a href="#" className="btn">View Details</a>
+                                <Link className="btn">View Details</Link>
                             </div>
                         </Col>
                     </Row>

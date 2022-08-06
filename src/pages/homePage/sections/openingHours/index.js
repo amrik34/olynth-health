@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import { Row, Col } from 'antd';
+import { Row, Col, Button } from 'antd';
 import { ClockCircleOutlined, FormOutlined } from '@ant-design/icons';
 import sign from '../../../../assets/images/png/sign.png';
 import doctorpic from '../../../../assets/images/png/doctor-pic.png';
@@ -23,7 +23,7 @@ export class OpeningHours extends Component {
                                 </ul>
                                 <h4><FormOutlined /> Need Help?</h4>
                                 <p className="help-captions">Just make an appointment to get help from our experts</p>
-                                <a href="#" className="btn">Request an appointment</a>
+                                <Button className="btn">Request an appointment</Button>
 
 
                             </div>
@@ -38,7 +38,7 @@ export class OpeningHours extends Component {
                                 <div className="doctor-sign">
                                     <img src={sign} alt={sign} />
                                 </div>
-                                <a href="#" className="outline-btn">Read more</a>
+                                <Button className="outline-btn">Read more</Button>
                             </div>
                             <div className="about-doc-detail">
                                 <img src={doctorpic} alt="Doctor" />

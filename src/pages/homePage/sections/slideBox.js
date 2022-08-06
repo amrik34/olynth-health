@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Typography } from 'antd'
 // interface Props {
 //     title: any;
@@ -12,13 +13,13 @@ const SlideBox = (props) => {
     return (
         <div className="slideBox">
             <div className="image-container">
-                <img src={props.imagepath} />
+                <Image src={props.imagepath} preview={false} />
             </div>
             <div className="slide-content">
                 <h2>{props.title}</h2>
                 <h3 level={2}>{props.title2}</h3>
                 <div level={2} className="caption">{props.caption}</div>
-                <a href="#" className="btn">View Details</a>
+                <Link className="btn">View Details</Link>
             </div>
 
         </div>

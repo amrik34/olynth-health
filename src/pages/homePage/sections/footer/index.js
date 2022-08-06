@@ -51,22 +51,28 @@ const Ourservices = () => {
             <h2>Our services</h2>
             <ul>
                 <li>
-                    <a href="">Choosing a Doctor</a>
+                    <Link to='/'>Choosing a Doctor</Link>
+
                 </li>
                 <li>
-                    <a href="">Take proper teatment</a>
+
+                    <Link to='/'>Take proper teatment</Link>
                 </li>
                 <li>
-                    <a href="">Discuss your Doctor</a>
+
+                    <Link to='/'>Discuss your Doctor</Link>
+
                 </li>
                 <li>
-                    <a href="">Find medical error</a>
+
+                    <Link to='/'>Find medical error</Link>
+
                 </li>
                 <li>
-                    <a href="">Report progress  condition</a>
+                    <Link to='/'>Report progress  condition</Link>
                 </li>
                 <li>
-                    <a href="">Primary medical care</a>
+                    <Link to='/'>Primary medical care</Link>
                 </li>
             </ul>
         </div>
