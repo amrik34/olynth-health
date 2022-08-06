@@ -109,11 +109,11 @@ const Contactus = () => {
             <h2>Contact us</h2>
             <ul>
                 <li>
-                    <a href="">+1800-001-658</a>
+                    <Link to='/'>+1800-001-658</Link>
                 </li>
 
                 <li>
-                    <a href="">info@yOlynth.com</a>
+                    <Link to='/'>info@yOlynth.com</Link>
                 </li>
                 <li>
                     Themeforest, Envato HQ 24 st., Los Angeles, USA
