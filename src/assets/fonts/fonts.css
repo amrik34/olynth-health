@@ -1,0 +1,30 @@
+@font-face {
+    font-family: opensans-regular;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/opensans-regular.ttf');
+}
+
+@font-face {
+    font-family: opensans-bold;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/opensans-bold.ttf');
+}
+@font-face {
+    font-family: alice-regular;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/alice-regular.ttf');
+}
+
+
+@font-face {
+    font-family: bebasneue-bold;
+    font-style: normal;
+    font-display: swap;
+    src: url('fonts/bebasneue-bold.ttf');
+}
+
+
+

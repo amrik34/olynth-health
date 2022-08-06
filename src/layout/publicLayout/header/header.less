@@ -1,0 +1,143 @@
+.topbar {
+    background: #00a3c8;
+    height: 48px;
+    padding: 8px 5%;
+
+
+    .ant-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 32px;
+    }
+
+    .social-media {
+        display: flex;
+
+        a {
+            margin-right: 16px;
+            line-height: 21px;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: red;
+
+            svg {
+                width: auto;
+                height: 18px;
+
+                path {
+                    fill: #fff
+                }
+
+                &.google-plus-icon {
+                    height: 24px;
+                }
+            }
+
+            .facebook-icon path {
+                fill: #fff
+            }
+        }
+
+        .twitter {
+            svg path {
+                fill: #fff
+            }
+        }
+    }
+
+    .topbar-right {
+        display: flex;
+        justify-content: flex-end;
+
+        a {
+            color: #fff;
+            font-size: 14px;
+            line-height: 24px;
+            font-family: @primary-font;
+            margin-left: 16px;
+            display: inline-flex;
+            align-items: center;
+            height: 32px;
+            padding: 4px 0;
+
+            svg {
+                margin-right: 8px;
+            }
+        }
+
+        .make-Appointment {
+            background-color: #fff;
+            color: @primary-color;
+            padding: 4px 8px;
+        }
+
+        .phone {
+            svg {
+                width: 18px;
+                height: 18px;
+                fill: #fff;
+            }
+        }
+    }
+
+
+}
+
+.header {
+    padding: 0;
+
+    .header-wrapper {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 0;
+
+        .brand {
+            width: 200px;
+
+        }
+
+        .menu {
+            max-width: (100% - 220px);
+            width: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                border-bottom: 0;
+
+                .ant-menu-title-content {
+                    color: @body-textcolor;
+                    font-size: 14px;
+                }
+
+                .ant-menu-submenu .ant-menu-submenu-title {
+                    position: relative;
+
+                    .anticon-down {
+                        position: absolute;
+                        right: 0;
+                        top: 19px;
+
+                        svg {
+                            fill: @body-textcolor
+                        }
+                    }
+
+                    .ant-menu-title-content {
+                        padding-right: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

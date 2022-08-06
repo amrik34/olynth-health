@@ -1,0 +1,184 @@
+.olyth-value {
+    background: url('../../../../assets/images/png/olyth-bg.png') repeat;
+    padding: 64px 5%;
+
+    .olyth-value-header {
+        text-align: center;
+    }
+
+    .olyth-value-header {
+
+
+        h2 {
+            font-family: @primary-font;
+            margin: 24px 0;
+            padding: 4px 10%;
+            font-size: 40px;
+            line-height: 58px;
+            color: #000;
+            font-weight: normal;
+            background: #fff;
+            min-height: 58px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        h4 {
+            font-family: @primary-font;
+            margin: 24px 0;
+            min-height: 58px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4px 5%;
+            font-size: 18px;
+            line-height: 36px;
+            color: #000;
+            font-weight: normal;
+            background: #fff;
+        }
+    }
+
+    .olyth-value-middle {
+        border: 10px solid #f1f1f1;
+        margin: 64px 0 0;
+    }
+
+    // olynth-help
+    .olynth-help-image {
+        align-items: flex-end;
+        justify-content: flex-end;
+        display: flex;
+
+        img {
+            max-width: 80%;
+        }
+    }
+
+    .olynth-help {
+        background: #fff;
+
+        .olynth-help-content {
+            padding: 64px 0;
+
+            h2 {
+                color: #000;
+                font-family: @secondary-font;
+                font-size: 48px;
+                line-height: 64px;
+
+                span {
+                    display: block;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: @body-textcolor;
+                    font-family: @primary-font;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 24px;
+                color: @body-textcolor;
+                font-family: @primary-font;
+            }
+
+            ul {
+                margin: 0 0 32px;
+                padding: 0;
+
+                li {
+                    font-size: 14px;
+                    color: #333;
+                    line-height: 24px;
+                    list-style: none;
+                    margin-bottom: 16px;
+                    position: relative;
+                    padding: 0 0 0 64px;
+
+                    svg {
+                        position: absolute;
+                        fill: @primary-color;
+                        top: calc(50% - 7px);
+                        left: 25px;
+                    }
+                }
+            }
+
+            .btn {
+                font-size: 20px;
+                line-height: 48px;
+                height: 64px;
+                padding: 0 32px;
+                display: inline-flex;
+                align-items: center;
+                width: 220px;
+                justify-content: center;
+            }
+        }
+    }
+
+    ul.olyth-type-list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        li {
+            width: calc(100%/5);
+            height: 150px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left: 1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
+            cursor: pointer;
+
+            &:first-child {
+                border-left: 0;
+            }
+
+            .listbox {
+                .iconname {
+                    display: block;
+                    width: 100%;
+                    margin-bottom: 16px;
+                    text-align: center;
+
+                    svg {
+                        fill: @primary-color;
+                        width: 24px;
+                    }
+                }
+
+                .listname {
+                    height: 40px;
+                    display: inline-flex;
+                    line-height: 40px;
+                    padding: 0 24px;
+                    font-size: 16px;
+                    color: #000;
+                }
+            }
+
+            &.selectted,
+            &:hover {
+                background: @primary-color;
+
+                .listbox {
+                    .iconname {
+                        svg {
+                            fill: #fff;
+                        }
+                    }
+
+                    .listname {
+                        background: #338f9f;
+                    }
+                }
+            }
+        }
+    }
+}

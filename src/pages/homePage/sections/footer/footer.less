@@ -1,0 +1,201 @@
+.footer {
+    background: #111111;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    color: @body-textcolor;
+
+    a {
+        color: #fff;
+    }
+
+    .footer-top {
+        width: 100%;
+        padding: 48px 5% 0;
+
+        .ft-logo {
+            height: 85px;
+            width: auto;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: @primary-font;
+            margin: 0 0 12px;
+        }
+
+        .center-newsletter {
+            border-left: 1px solid @body-textcolor;
+            border-right: 1px solid @body-textcolor;
+            padding: 0 0 80px;
+
+            .ftcenter-wrapper {
+                max-width: 80%;
+                text-align: center;
+                margin: 0 auto;
+
+                p {
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: @body-textcolor;
+                    margin: 16px 0;
+                }
+
+                .newsletter {
+                    border-top: 1px dotted @body-textcolor;
+                    margin-top: 24px;
+                    padding: 32px 0;
+
+                    h3 {
+                        font-family: @secondary-font;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: #fff;
+                    }
+
+                    .ant-form-item {
+                        margin: 0 auto;
+                        padding: 24px 0 0;
+                        max-width: 80%;
+                    }
+
+                    .ant-form-item-control-input-content {
+                        display: flex;
+
+                        .ant-input {
+                            height: 40px;
+                            outline: 0;
+                            border: 0;
+                            background: #333333;
+                        }
+
+                        .ant-btn {
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .ourservices-main,
+        .contactus-main {
+            padding-top: 72px;
+        }
+
+        .ourservices {
+            ul {
+                margin: 0 0 8px;
+                padding: 0;
+
+                li {
+                    padding: 8px 0;
+                    color: @body-textcolor;
+                    list-style: none;
+                }
+
+                a {
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: @body-textcolor;
+
+                }
+            }
+        }
+
+        .contactus {
+            h2 {
+                text-align: right;
+            }
+
+            ul {
+                margin: 0 0 8px;
+                padding: 0;
+
+                li {
+                    text-align: right;
+                    padding: 8px 0;
+                    color: @body-textcolor;
+                    list-style: none;
+                }
+
+                a {
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: @body-textcolor;
+
+                }
+            }
+
+            .social-links {
+                text-align: right;
+
+                a {
+                    height: 32px;
+                    width: 32px;
+                    background: #fff;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    margin-left: 16px;
+                }
+
+                svg {
+                    height: 20px;
+                    width: auto;
+                }
+
+                rect,
+                circle,
+                svg path {
+                    fill: #333
+                }
+            }
+        }
+    }
+
+    .footer-bar {
+        background: #222222;
+        height: 64px;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        padding: 8px 5%;
+        justify-content: space-between;
+        color: @body-textcolor ;
+
+        .ft-copyrights {
+            color: @body-textcolor ;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .ft-links {
+            a {
+                display: inline-block;
+                margin: 0 12px;
+                text-decoration: none;
+                color: @body-textcolor ;
+                font-size: 14px;
+                line-height: 24px;
+
+            }
+        }
+
+        .social {
+            position: absolute;
+            right: 32px;
+            top: 32px;
+        }
+
+        a {
+            display: inline-block;
+            margin: 0 8px;
+        }
+    }
+
+
+}
